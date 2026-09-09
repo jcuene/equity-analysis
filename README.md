@@ -6,6 +6,7 @@ Personal equity research workflow: theme development → watchlist → quarterly
 
 | Folder | What lives here |
 |---|---|
+| `AGENTS.md` (root) | Project context for AI coding agents (Claude Code, Codex, etc.) — read this first |
 | `spec/` | The contract for how the cadences work (`cadence-spec.md`) and shared naming/tiering rules (`conventions.md`) |
 | `prompts/` | Reusable research prompts, e.g. `theme-research.md` for developing/refreshing investment themes |
 | `rubric/` | The scoring rubric — `rubric-v2.md` is current/source of truth; prior versions and `CHANGELOG.md` explain why it changed |
@@ -21,8 +22,8 @@ Personal equity research workflow: theme development → watchlist → quarterly
 
 ## Running a cadence
 
-See `spec/cadence-spec.md` (not yet written — TODO) for what each cadence expects as input and produces as output.
+See `spec/cadence-spec.md` for what each cadence expects as input and produces as output.
 
 ## History
 
-Reorganized into this structure in September 2026; prior layout lived under `My Stack/`.
+Reorganized into this structure in September 2026; prior layout lived under `My Stack/`. `CLAUDE.md` was retired in favor of `AGENTS.md` (the single project-context file for all coding agents) at the same time.
